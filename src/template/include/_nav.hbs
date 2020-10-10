@@ -1,85 +1,64 @@
 <ul id="js-nav-menu" class="nav-menu">
-	<li {{#is pagename "in" "intel_analytics_dashboard,intel_marketing_dashboard,intel_introduction,intel_privacy,intel_build_notes"}}class="active open" {{/is}}>
-		<a href="#" title="Application Intel" data-filter-tags="application intel">
-			<i class="fal fa-info-circle"></i>
-			<span class="nav-link-text" data-i18n="nav.application_intel">Application Intel</span>
+	<li {{#is pagename "in" "Registro_usuario,intel_marketing_dashboard,intel_marketing_dashboard,intel_introduction"}}class="active open" {{/is}}>
+		<a href="#" title="Registro" data-filter-tags="registro">
+			<i class="ni ni-note"></i>
+			<span class="nav-link-text" data-i18n="nav.registro">Registro</span>
 		</a>
 		<ul>
-			<li {{#is pagename "===" "intel_analytics_dashboard"}}class="active" {{/is}}>
-				<a href="intel_analytics_dashboard.html" title="Analytics Dashboard" data-filter-tags="application intel analytics dashboard">
-					<span class="nav-link-text" data-i18n="nav.application_intel_analytics_dashboard">Analytics Dashboard</span>
+			<li {{#is pagename "===" "Registro_usuario"}}class="active" {{/is}}>
+				<a href="Registro_usuario.html" title="Usuario" data-filter-tags="registro usuario">
+					<span class="nav-link-text" data-i18n="nav.registro_usuario">Usuario</span>
 				</a>
 			</li>
 			<li {{#is pagename "===" "intel_marketing_dashboard"}}class="active" {{/is}}>
-				<a href="intel_marketing_dashboard.html" title="Marketing Dashboard" data-filter-tags="application intel marketing dashboard">
-					<span class="nav-link-text" data-i18n="nav.application_intel_marketing_dashboard">Marketing Dashboard</span>
+				<a href="intel_marketing_dashboard.html" title="Equipo" data-filter-tags="registro equipo">
+					<span class="nav-link-text" data-i18n="nav.registro_equipo">Equipo</span>
+				</a>
+			</li>
+			<li {{#is pagename "===" "intel_marketing_dashboard"}}class="active" {{/is}}>
+				<a href="intel_marketing_dashboard.html" title="Contrato" data-filter-tags="registro contrato">
+					<span class="nav-link-text" data-i18n="nav.registro_contrato">Contrato</span>
 				</a>
 			</li>
 			<li {{#is pagename "===" "intel_introduction"}}class="active" {{/is}}>
-				<a href="intel_introduction.html" title="Introduction" data-filter-tags="application intel introduction">
-					<span class="nav-link-text" data-i18n="nav.application_intel_introduction">Introduction</span>
-				</a>
-			</li>
-			<li {{#is pagename "===" "intel_privacy"}}class="active" {{/is}}>
-				<a href="intel_privacy.html" title="Privacy" data-filter-tags="application intel privacy">
-					<span class="nav-link-text" data-i18n="nav.application_intel_privacy">Privacy</span>
-				</a>
-			</li>
-			<li {{#is pagename "===" "intel_build_notes"}}class="active" {{/is}}>
-				<a href="intel_build_notes.html" title="Build Notes" data-filter-tags="application intel build notes">
-					<span class="nav-link-text" data-i18n="nav.application_intel_build_notes">Build Notes</span>
-					<span class="">v{{version}}</span>
+				<a href="intel_introduction.html" title="Masivo" data-filter-tags="registro masivo">
+					<span class="nav-link-text" data-i18n="nav.registro_masivo">Masivo</span>
 				</a>
 			</li>
 		</ul>
 	</li>
-	<li {{#is pagename "in" "settings_how_it_works,settings_layout_options,settings_skin_options,settings_saving_db"}}class="active open" {{/is}}>
-		<a href="#" title="Theme Settings" data-filter-tags="theme settings">
-			<i class="fal fa-cog"></i>
-			<span class="nav-link-text" data-i18n="nav.theme_settings">Theme Settings</span>
-		</a>
-		<ul>
-			<li {{#is pagename "===" "settings_how_it_works"}}class="active" {{/is}}>
-				<a href="settings_how_it_works.html" title="How it works" data-filter-tags="theme settings how it works">
-					<span class="nav-link-text" data-i18n="nav.theme_settings_how_it_works">How it works</span>
-				</a>
-			</li>
-			<li {{#is pagename "===" "settings_layout_options"}}class="active" {{/is}}>
-				<a href="settings_layout_options.html" title="Layout Options" data-filter-tags="theme settings layout options">
-					<span class="nav-link-text" data-i18n="nav.theme_settings_layout_options">Layout Options</span>
-				</a>
-			</li>
-			<li {{#is pagename "===" "settings_skin_options"}}class="active" {{/is}}>
-				<a href="settings_skin_options.html" title="Skin Options" data-filter-tags="theme settings skin options">
-					<span class="nav-link-text" data-i18n="nav.theme_settings_skin_options">Skin Options</span>
-				</a>
-			</li>
-			<li {{#is pagename "===" "settings_saving_db"}}class="active" {{/is}}>
-				<a href="settings_saving_db.html" title="Saving to Database" data-filter-tags="theme settings saving to database">
-					<span class="nav-link-text" data-i18n="nav.theme_settings_saving_to_database">Saving to Database</span>
-				</a>
-			</li>
-		</ul>
-	</li>
-	<li {{#is pagename "in" "info_app_docs,info_app_licensing,info_app_flavors"}}class="active open" {{/is}}>
-		<a href="#" title="Package Info" data-filter-tags="package info">
-			<i class="fal fa-tag"></i>
-			<span class="nav-link-text" data-i18n="nav.package_info">Package Info</span>
+	<li {{#is pagename "in" "info_app_docs,info_app_docs"}}class="active open" {{/is}}>
+		<a href="#" title="Siniestro" data-filter-tags="siniestro">
+			<i class="ni ni-ban"></i>
+			<span class="nav-link-text" data-i18n="nav.siniestro">Siniestro</span>
 		</a>
 		<ul>
 			<li {{#is pagename "===" "info_app_docs"}}class="active" {{/is}}>
-				<a href="info_app_docs.html" title="Documentation" data-filter-tags="package info documentation">
-					<span class="nav-link-text" data-i18n="nav.package_info_documentation">Documentation</span>
+				<a href="info_app_docs.html" title="Registro" data-filter-tags="siniestro registro">
+					<span class="nav-link-text" data-i18n="nav.siniestro_registro">Registro</span>
+				</a>
+			</li>
+			<li {{#is pagename "===" "info_app_docs"}}class="active" {{/is}}>
+				<a href="info_app_docs.html" title="Estadisticas" data-filter-tags="siniestro estadisticas">
+					<span class="nav-link-text" data-i18n="nav.siniestro_estadisticas">Estadisticas</span>
+				</a>
+			</li>
+		</ul>
+	</li>
+	<li {{#is pagename "in" "info_app_docs,info_app_licensing"}}class="active open" {{/is}}>
+		<a href="#" title="Inventario" data-filter-tags="inventario">
+			<i class="ni ni-drawer"></i>
+			<span class="nav-link-text" data-i18n="nav.inventario">Inventario</span>
+		</a>
+		<ul>
+			<li {{#is pagename "===" "info_app_docs"}}class="active" {{/is}}>
+				<a href="info_app_docs.html" title="Equipos" data-filter-tags="inventario equipos">
+					<span class="nav-link-text" data-i18n="nav.inventario_equipos">Equipos</span>
 				</a>
 			</li>
 			<li {{#is pagename "===" "info_app_licensing"}}class="active" {{/is}}>
-				<a href="info_app_licensing.html" title="Product Licensing" data-filter-tags="package info product licensing">
-					<span class="nav-link-text" data-i18n="nav.package_info_product_licensing">Product Licensing</span>
-				</a>
-			</li>
-			<li {{#is pagename "===" "info_app_flavors"}}class="active" {{/is}}>
-				<a href="info_app_flavors.html" title="Different Flavors" data-filter-tags="package info different flavors">
-					<span class="nav-link-text" data-i18n="nav.package_info_different_flavors">Different Flavors</span>
+				<a href="info_app_licensing.html" title="Contratos" data-filter-tags="inventario contratos">
+					<span class="nav-link-text" data-i18n="nav.inventario_contratos">Contratos</span>
 				</a>
 			</li>
 		</ul>

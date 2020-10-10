@@ -6,7 +6,7 @@ gulp.task('connect', function (done) {
 		root: 'dist/',
 		livereload: false,
 		port: 4000,
-		fallback: 'dist/intel_analytics_dashboard.html'
+		fallback: 'dist/Registro_usuario.html'
 	});
 	done();
 })

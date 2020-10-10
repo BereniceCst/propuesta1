@@ -44,6 +44,7 @@
     "es6-promise-polyfill": "^1.2.0",
     "flot": "^0.8.3",
     "flot-spline": "0.0.1",
+    "gulp-install": "^1.1.0",
     "holderjs": "^2.9.6",
     "i18next-client": "^1.11.4",
     "inputmask": "^4.0.8",

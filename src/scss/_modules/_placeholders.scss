@@ -29,7 +29,8 @@ RESULT:
 %nav-bg {
 	background-image: -webkit-linear-gradient(270deg, $nav-background-shade, transparent);
 	background-image: linear-gradient(270deg, $nav-background-shade, transparent); 
-	background-color: $nav-background;
+	// background-color: $nav-background;
+	background-color: #2b4c81;
 }
 
 /*

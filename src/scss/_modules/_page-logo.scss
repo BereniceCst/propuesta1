@@ -24,8 +24,9 @@
 	@extend %general-animation;
 
 	img {
-		width: $header-logo-width;
-		height: $header-logo-height;
+		width: 153px;
+		height: 51px;
+		margin: 20px;
 	}
 
 	.page-logo-link {

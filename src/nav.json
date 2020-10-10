@@ -2,77 +2,58 @@
 	"version": 4,
 	"lists": [
 		{
-			"title": "Application Intel",
-			"icon": "fal fa-info-circle",
+			"title": "Registro",
+			"icon": "ni ni-note",
 			"items": [
 				{
-					"title": "Analytics Dashboard",
+					"title": "Usuario",
 					"showOnSeed": false,
-					"href": "intel_analytics_dashboard.html"
+					"href": "Registro_usuario.html"
 				},
 				{
-					"title": "Marketing Dashboard",
+					"title": "Equipo",
 					"showOnSeed": false,
 					"href": "intel_marketing_dashboard.html"
 				},
 				{
-					"title": "Introduction",
-					"href": "intel_introduction.html"
-				},
-				{
-					"title": "Privacy",
-					"href": "intel_privacy.html"
-				},
-				{
-					"title": "Build Notes",
+					"title": "Contrato",
 					"showOnSeed": false,
-					"href": "intel_build_notes.html",
-					"text": "Build Notes",
-					"span": {
-						"text": "v{{version}}"
-					}
+					"href": "intel_marketing_dashboard.html"
+				},
+				{
+					"title": "Masivo",
+					"href": "intel_introduction.html"
 				}
 			]
 		},
 		{
-			"title": "Theme Settings",
-			"icon": "fal fa-cog",
-			"items": [
+			"title": "Siniestro",
+			"icon": "ni ni-ban", 
+			"items":[
 				{
-					"title": "How it works",
-					"href": "settings_how_it_works.html"
-				},
-				{
-					"title": "Layout Options",
-					"href": "settings_layout_options.html"
-				},
-				{
-					"title": "Skin Options",
-					"href": "settings_skin_options.html"
-				},
-				{
-					"title": "Saving to Database",
-					"href": "settings_saving_db.html"
-				}
-			]
-		},
-		{
-			"title": "Package Info",
-			"icon": "fal fa-tag",
-			"items": [
-				{
-					"title": "Documentation",
+					"title": "Registro",
 					"href": "info_app_docs.html",
 					"showOnSeed": false
 				},
 				{
-					"title": "Product Licensing",
-					"href": "info_app_licensing.html"
+					"title": "Estadisticas",
+					"href": "info_app_docs.html",
+					"showOnSeed": false
+				}
+			]
+			},
+		{
+			"title": "Inventario",
+			"icon": "ni ni-drawer",
+			"items": [
+				{
+					"title": "Equipos",
+					"href": "info_app_docs.html",
+					"showOnSeed": false
 				},
 				{
-					"title": "Different Flavors",
-					"href": "info_app_flavors.html",
-					"showOnSeed": false
+					"title": "Contratos",
+					"href": "info_app_licensing.html"
 				}
 			]
 		},
